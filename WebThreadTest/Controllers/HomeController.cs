@@ -27,10 +27,10 @@ namespace WebThreadTest.Controllers
             await Task.WhenAll(t1, t2, t3, t4);
 
             /*Paralelo and Not Async*/
-            //var t1 = Task.Factory.StartNew(() => obj.Thread1(11000));
-            //var t2 = Task.Factory.StartNew(() => obj.Thread2(15500));
-            //var t3 = Task.Factory.StartNew(() => obj.Thread3(8255));
-            //var t4 = Task.Factory.StartNew(() => obj.Thread4(5000));
+            //var t1 = Task.Factory.StartNew(() => obj.Thread1(1000));
+            //var t2 = Task.Factory.StartNew(() => obj.Thread2(1500));
+            //var t3 = Task.Factory.StartNew(() => obj.Thread3(4255));
+            //var t4 = Task.Factory.StartNew(() => obj.Thread4(300));
             //Task.WhenAll(t1, t2, t3, t4);
 
 
